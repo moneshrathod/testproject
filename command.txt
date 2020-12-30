@@ -1,0 +1,12 @@
+git config --global user.name "monesh"
+git config --global user.name "example@gmail.com"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial Commit"
+git status //just to see
+//////////////////
+ssh key
+//////////////////
+git remote add origin <ssh or https>
+git push origin master
